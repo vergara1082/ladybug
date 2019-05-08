@@ -1,0 +1,12 @@
+<resources>
+    <string name="txt_app_name">LadyBug</string>
+    <string name="etx_userName">User</string>
+    <string name="etx_email">E-MAIL</string>
+    <string name="etx_password">PASSWORD</string>
+    <string name="txt_forgotPassword">Forgot Password?</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="txt_conectWith">Or conect with</string>
+    <string name="txt_newHere">New here?</string>
+    <string name="txt_signUp"><a>Sign Up</a></string>
+    <string name="btn_signUp"><a>SIGN UP</a></string>
+</resources>

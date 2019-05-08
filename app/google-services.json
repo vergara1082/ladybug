@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "553320109586",
+    "firebase_url": "https://fourtofourfinal.firebaseio.com",
+    "project_id": "fourtofourfinal",
+    "storage_bucket": "fourtofourfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553320109586:android:3994123437c6bc1e",
+        "android_client_info": {
+          "package_name": "com.example.fourtofourfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553320109586-9sgsbgvovo1mfv328hhn5pa89tt5l0qh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fourtofourfinal",
+            "certificate_hash": "1567a5bd6a48f54a380c97d4ec0b3948389fa950"
+          }
+        },
+        {
+          "client_id": "553320109586-kpo6l1sehkqh2s9018na3kflnl4c1mmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcE9EjvkJF3jshnHIaik4gZT_HyyXAYIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553320109586-kpo6l1sehkqh2s9018na3kflnl4c1mmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
