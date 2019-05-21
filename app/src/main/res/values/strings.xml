@@ -10,4 +10,5 @@
     <string name="txt_signUp"><a>Sign Up</a></string>
     <string name="btn_signUp"><a>SIGN UP</a></string>
     <string name="msn_autentication_failed">Authentication failed.</string>
+    <string name="facebook_app_id">545650049296430</string>
 </resources>
