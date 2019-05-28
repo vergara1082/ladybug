@@ -97,7 +97,7 @@ public class activity_sign_up extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
 
-                            Intent intent = new Intent(getApplicationContext(),UserAutenticado.class);
+                            Intent intent = new Intent(getApplicationContext(),MenuActivity.class);
                             startActivity(intent);
 
                         } else {
@@ -122,7 +122,7 @@ public class activity_sign_up extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                                Intent intent = new Intent(getApplicationContext(),UserAutenticado.class);
+                                Intent intent = new Intent(getApplicationContext(),MenuActivity.class);
                                 startActivity(intent);
                         } else {
 
@@ -171,6 +171,7 @@ public class activity_sign_up extends AppCompatActivity {
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
+
     }
 
 

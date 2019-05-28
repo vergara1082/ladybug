@@ -4,6 +4,8 @@ package com.example.fourtofourfinal;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputEditText;
 import android.support.v7.app.AppCompatActivity;
 import android.text.method.LinkMovementMethod;
@@ -45,13 +47,13 @@ public class IndexActivity extends AppCompatActivity {
             }
 
             case R.id.btnSignUP:{
-                signIn();
+                signIn(view);
             }
         }
 
     }
 
-    public void signIn(){
+    public void signIn(final View view){
         String email =  adress.getText().toString();
         String password =  this.password.getText().toString();
 
@@ -66,8 +68,8 @@ public class IndexActivity extends AppCompatActivity {
 
                             } else {
 
-                                Toast.makeText(null, R.string.msn_autentication_failed,
-                                        Toast.LENGTH_SHORT).show();
+                                Snackbar.make(view, R.string.msn_autentication_failed, Snackbar.LENGTH_LONG)
+                                        .setAction("Action", null).show();
 
                             }
 

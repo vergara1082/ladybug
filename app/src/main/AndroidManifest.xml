@@ -9,10 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
-        <activity android:name=".UserAutenticado">
 
-        </activity>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".UserAutenticado"></activity>
         <activity android:name=".activity_sign_up" />
         <activity android:name=".FourToMain">
             <intent-filter>
@@ -22,15 +24,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".IndexActivity" />
-        <activity
-            android:name=".Presentation.Tasks.TapPairTask.TapPairActivity"
-            ></activity>
-        <activity
-            android:name=".Presentation.Tasks.TranslateSentenceTask.TSTaskActivity"
-            ></activity>
-        <activity
-            android:name=".Presentation.Tasks.WordTask.WordTaskActivity"
-            ></activity>
+        <activity android:name=".Presentation.Tasks.TapPairTask.TapPairActivity" />
+        <activity android:name=".Presentation.Tasks.TranslateSentenceTask.TSTaskActivity" />
+        <activity android:name=".Presentation.Tasks.WordTask.WordTaskActivity" />
+        <activity android:name=".MenuActivity" />
     </application>
 
 </manifest>
