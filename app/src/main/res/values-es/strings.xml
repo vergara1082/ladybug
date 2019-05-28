@@ -1,15 +1,15 @@
 <resources>
     <string name="txt_app_name">LadyBug</string>
-    <string name="etx_userName">User</string>
-    <string name="etx_email">E-MAIL</string>
-    <string name="etx_password">PASSWORD</string>
-    <string name="txt_forgotPassword">Forgot Password?</string>
-    <string name="btn_login">LOGIN</string>
-    <string name="txt_conectWith">Or conect with</string>
-    <string name="txt_newHere">New here?</string>
-    <string name="txt_signUp"><u>Sign Up</u></string>
-    <string name="btn_signUp"><a>SIGN UP</a></string>
-    <string name="msn_autentication_failed">Authentication failed.</string>
+    <string name="etx_userName">Usuario</string>
+    <string name="etx_email">Correo</string>
+    <string name="etx_password">Contraseña</string>
+    <string name="txt_forgotPassword">Olvido clave</string>
+    <string name="btn_login">Iniciar seciòn</string>
+    <string name="txt_conectWith">Conectar con</string>
+    <string name="txt_newHere">Nuevo aqui?</string>
+    <string name="txt_signUp"><u>Regístrate</u></string>
+    <string name="btn_signUp"><a>Regístrate</a></string>
+    <string name="msn_autentication_failed">Usuario y contraseña invalidas.</string>
     <string name="facebook_app_id">545650049296430</string>
     <string name="title_activity_test">test</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -23,14 +23,14 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
-    <string name="inicio">Start</string>
-    <string name="salir">exit</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_send">Enviar</string>
+    <string name="inicio">Iniciar</string>
+    <string name="salir">Salir</string>
     <string name="text_a1">A1</string>
     <string name="text_a2">A2</string>
     <string name="text_b1">B1</string>
     <string name="infoProgramador">Yesenia Hernandez | Lina Negrete </string>
-    <string name="email_empty">this field is required or more greater than 2</string>
-    <string name="password_empty">the password is required or more greater than 6 charaters</string>
+    <string name="email_empty">el campo es requerido o debe contener mas de 2 caracteres</string>
+    <string name="password_empty">la clave es requerida y debe tener mas de 6 caracteres</string>
 </resources>
