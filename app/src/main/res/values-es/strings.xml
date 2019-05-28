@@ -5,7 +5,7 @@
     <string name="etx_password">Contraseña</string>
     <string name="txt_forgotPassword">Olvido clave</string>
     <string name="btn_login">Iniciar seciòn</string>
-    <string name="txt_conectWith">Conectar con</string>
+    <string name="txt_conectWith">------Conectar con------</string>
     <string name="txt_newHere">Nuevo aqui?</string>
     <string name="txt_signUp"><u>Regístrate</u></string>
     <string name="btn_signUp"><a>Regístrate</a></string>
